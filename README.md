@@ -21,5 +21,5 @@ Run `npm install` and then `npm test`
 - The initial rendering of the tree could be speeded up. I could change the query to reduce the size of the data loaded from the GraphQL server or only load vendors to begin with and then load the rest on-demand. I could also add some caching and pre-rendering on the server.
 - Put limits on zooming and panning the tree e.g. the tree can't be hidden.
 - Set the D3 viewport relative to the browser window.
-- Ability to search for vendors, boards, and devices. I could use the `search_projects` fragment for that.
+- Ability to search for vendors, boards, and devices. I could use the `search_projects` query for that.
 - Use a package manager to manage D3 rather than including the file directly.
